@@ -4,7 +4,6 @@ import java.io.InputStream;
 
 /**
  * 临时文件管理接口
- * @author zgg
  *
  */
 public interface TmpFileManager {

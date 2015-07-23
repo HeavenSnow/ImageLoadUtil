@@ -1,16 +1,14 @@
 package com.ruby.storefile;
 
 import java.io.InputStream;
-
-import net.iaf.framework.util.NinePatchChunk;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.NinePatchDrawable;
 import android.util.Log;
+
 /**
  * 临时的图片管理容器
- * @author zgg
  *
  */
 public class TmpNinePatchDrawableManager {

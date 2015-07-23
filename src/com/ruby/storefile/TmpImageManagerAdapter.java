@@ -2,14 +2,13 @@ package com.ruby.storefile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
+
 /**
  * 临时的图片管理容器
- * @author zgg
  *
  */
 public class TmpImageManagerAdapter {

@@ -11,8 +11,6 @@ import android.content.Context;
 /**
  * 文件存储在'./data/data/com.xxx/files'目录下
  * 
- * @author Bob
- * 
  */
 public class TmpFileManagerDataFilesImpl implements TmpFileManager {
 
@@ -113,15 +111,9 @@ public class TmpFileManagerDataFilesImpl implements TmpFileManager {
 		}
 	}
 
-
 	@Override
 	public void deleteFile(String fileKey) {
 		this.context.deleteFile(fileKey);
-		// File file = null;
-		// file = new File(this.context.getFilesDir(), fileKey);
-		// if(file.exists()){
-		// file.delete();
-		// }
 	}
 
 }

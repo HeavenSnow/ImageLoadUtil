@@ -12,8 +12,6 @@ import android.content.Context;
 /**
  * 文件存储在'./data/data/com.xxx/cache'目录下 在系统资源紧张的时候会被系统自动释放，适合读写间隙比较短的场景
  * 
- * @author Bob
- * 
  */
 public class TmpFileManagerDataCacheImpl implements TmpFileManager {
 
